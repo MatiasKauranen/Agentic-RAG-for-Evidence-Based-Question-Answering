@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:8b",
+  "endpoint": "http://localhost:11434/api/chat",
+  "temperature": 0,
+  "num_ctx": 8192,
+  "num_predict": 1024,
+  "timeout": 300,
+  "num_gpu": 0,
+  "retriever": "bm25",
+  "retrieval_k": 2,
+  "max_searches": 3,
+  "max_reads": 6,
+  "max_decisions": 9,
+  "max_passages": 6,
+  "evidence_chars": 12000,
+  "seed": 23
+}

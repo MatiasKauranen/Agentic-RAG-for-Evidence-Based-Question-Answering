@@ -1,0 +1,8 @@
+# Direct imports used by project.ipynb.
+requests>=2.32,<3
+pydantic>=2.9,<3
+numpy>=1.26,<3
+pandas>=2.2,<4
+ipython
+rank-bm25>=0.2.2,<0.3
+sentence-transformers>=5,<7
